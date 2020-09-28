@@ -1,0 +1,27 @@
+N = (Vc * 1000) / (D * pi)
+
+Vc = (D * pi * N) / 1000
+
+Vf = Fz * N * Zc
+
+Fn = Vf / N
+
+Fn = Vf / (N * Zc)
+
+Q = (Ap * Ae * Vf) / 1000
+
+Parameter	Omschrijving	Eenheid
+D	Snijdiameter van gereedschap	mm
+Zc	Effectief aantal tanden per frees	stuks
+Vc	Snijsnelheid	m/min
+N	Toerental	omw/min
+Vf	Voedingsnelheid of tafelvoeding	mm/min
+Fz	Voeding per tand	mm
+Q	Verspaand volume	cm3/min
+Fn	Voeding per omwenteling	mm
+Ap	Snedediepte	mm
+Ae	Snedebreedte	mm
+Pc	Netto vermogen	kW
+Mc	Draaimoment	Nm
+Hm	Gemiddelde spaandikte	mm
+Hex	Maximale spaandikte	mm
